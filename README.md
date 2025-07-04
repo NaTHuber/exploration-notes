@@ -21,4 +21,32 @@ Este repositorio está en constante evolución. Algunos notebooks pueden estar e
 
 Si encuentras útil alguno de estos apuntes o quieres conversar sobre los temas tratados, puedes escribirme al correo nbaezhuber@gmail.com
 
+---
 
+*English version*
+
+# Exploration-Notes
+
+This repository is a collection of notebooks, scripts, and small experiments exploring different concepts and tools within the world of programming, physics, mathematics, and artificial intelligence.
+
+## Repository Structure
+
+The content is organized by topic. Each file is intended as a brief, independent, and commented exploration.
+
+## Goals
+
+- 💡 Explore ideas in a lightweight way
+
+- 📚 Consolidate knowledge from courses or readings
+
+- 🧪 Play with code without the need for it to be complete
+
+- ⏱️ Maintain consistent, documented activity on GitHub
+
+## Note
+
+This repository is constantly evolving. Some notebooks may be works in progress or incomplete. The ideas here don't necessarily represent best practices, but rather moments of exploration.
+
+## Contact
+
+If you find any of these notes useful or want to discuss the topics covered, you can email me at [nbaezhuber@gmail.com](https://mailto:nbaezhuber@gmail.com/)
