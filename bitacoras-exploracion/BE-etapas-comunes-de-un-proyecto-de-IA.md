@@ -7,10 +7,11 @@ flowchart TD
     C --> D[Selección del modelo]
     D --> E[Entrenamiento del modelo]
     E --> F[Evaluación y validación]
-    F --> G{¿Desplegar el modelo?}
-    G -- Sí --> H[Despliegue y monitoreo]
-    G -- No --> I[Documentación y entrega]
-    H --> I[Documentación y entrega]ga]-> [*]
+    F --> G{Desplegar el modelo?}
+    G --> Si --> H[Despliegue y monitoreo]
+    G --> No --> I[Documentación y entrega]
+    H --> I
+    
 ```
 
 ### 1. **Definir el objetivo del proyecto.**
