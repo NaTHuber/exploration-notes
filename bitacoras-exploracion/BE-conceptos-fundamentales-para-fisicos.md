@@ -46,7 +46,7 @@ mindmap
     Cálculo diferencial e integral
     Álgebra lineal
     Ecuaciones diferenciales
-    Análisis complejo y transformadas (Fourier, Laplace)
+    Análisis complejo y transformadas de Fourier y Laplace
     Probabilidad y estadística
 
 ```
