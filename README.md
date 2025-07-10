@@ -1,6 +1,6 @@
 # Exploration-Notes
 
-Este repositorio es una colección de notebooks, scripts y experimentos pequeños que exploran diferentes conceptos y herramientas dentro mundo de la programación, física, matemáticas e inteligencia artificial. 
+Este repositorio es una colección de notebooks, scripts, bitácoras y experimentos pequeños que exploran diferentes conceptos y herramientas dentro del mundo de la programación, física, matemáticas e inteligencia artificial. 
 
 ## Estructura del repositorio
 
@@ -8,10 +8,9 @@ El contenido está organizado por temas. Cada archivo está pensado como una exp
 
 ## Objetivos
 
-- 💡 Explorar ideas de forma ligera
-- 📚 Consolidar lo aprendido en cursos o lecturas
-- 🧪 Jugar con código sin la necesidad de que tenga que estar terminado 
-- ⏱️ Mantener actividad constante y documentada en GitHub
+-  Explorar ideas de forma ligera
+-  Consolidar lo aprendido en cursos o lecturas
+-  Jugar con código sin la necesidad de que tenga que estar terminado 
 
 ## Nota
 
@@ -27,7 +26,7 @@ Si encuentras útil alguno de estos apuntes o quieres conversar sobre los temas 
 
 # Exploration-Notes
 
-This repository is a collection of notebooks, scripts, and small experiments exploring different concepts and tools within the world of programming, physics, mathematics, and artificial intelligence.
+This repository is a collection of notebooks, scripts, logs and small experiments exploring different concepts and tools within the world of programming, physics, mathematics, and artificial intelligence.
 
 ## Repository Structure
 
@@ -35,13 +34,9 @@ The content is organized by topic. Each file is intended as a brief, independent
 
 ## Goals
 
-- 💡 Explore ideas in a lightweight way
-
-- 📚 Consolidate knowledge from courses or readings
-
-- 🧪 Play with code without the need for it to be complete
-
-- ⏱️ Maintain consistent, documented activity on GitHub
+- Explore ideas in a lightweight way
+- Consolidate knowledge from courses or readings
+- Play with code without the need for it to be complete
 
 ## Note
 
