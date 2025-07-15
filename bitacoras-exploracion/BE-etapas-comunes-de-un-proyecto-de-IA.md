@@ -1,17 +1,17 @@
 # Bitácora de Exploración: Etapas comunes de un proyecto de IA
 
 ```mermaid
-flowchart TD
-    A[Definición del problema] --> B[Recolección y exploración de datos]
-    B --> C[Preprocesamiento y limpieza]
-    C --> D[Selección del modelo]
-    D --> E[Entrenamiento del modelo]
-    E --> F[Evaluación y validación]
-    F --> G{Desplegar el modelo?}
-    G --> Si --> H[Despliegue y monitoreo]
-    G --> No --> I[Documentación y entrega]
+graph LR
+    A(Definición del problema) --> B(Recolección de datos)
+    B --> C(Preprocesamiento)
+    C --> D(Selección del modelo)
+    D --> E(Entrenamiento)
+    E --> F(Evaluación)
+    F --> G{Desplegar?}
+    G -->|Sí| H(Despliegue)
+    G -->|No| I(Documentación)
     H --> I
-    
+    I --> A
 ```
 
 ### 1. **Definir el objetivo del proyecto.**
