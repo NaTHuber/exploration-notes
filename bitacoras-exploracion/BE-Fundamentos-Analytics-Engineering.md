@@ -14,7 +14,7 @@ El objetivo de estas notas es escribir y ordenar los conceptos y fundamentos bá
 
 ## 1. Pensamiento analítico sobre los datos
 
-El pensamiento análitico es uno de los ejes que permite entender la data del proyecto y negocio que se está usando, ya que toda transformación analítica empieza identificando **la entidad, la granularidad y la regla de unicidad de cada tabla.**. Por ejemplo una query que ayudaría a identificar que `order_id` realmente identifica una fila única de la tabla `orders` es la siguiente:
+El pensamiento análitico es uno de los ejes que permite entender la data del proyecto y negocio que se está usando, ya que toda transformación analítica empieza identificando **la entidad, la granularidad y la regla de unicidad de cada tabla.** Por ejemplo una query que ayudaría a identificar que `order_id` realmente identifica una fila única de la tabla `orders` es la siguiente:
 
 ```sql
 select
@@ -24,7 +24,7 @@ from orders
 group by order_id
 having count(*) > 1;
 ```
-
+> **Nota:** Una de las preguntas guía más importantes que se deben hacer es _¿Qué representa una fila en esta tabla?_
 ## 2. Modelado de datos
 
 Es muy importante definir un modelo de datos en donde las tablas queden organizadas para que el modelo sea confiable, entendible y reutilizable. El enfoque dimensional nos brinda:
@@ -34,7 +34,7 @@ Es muy importante definir un modelo de datos en donde las tablas queden organiza
 
 Una tabla de hechos suele tener métricas numéricas y llaves hacia dimensiones. 
 
-Algunos de los conceptos clave importantes son:
+Algunos de los conceptos importantes son:
 
 - Entidad
 - Granularidad
@@ -45,9 +45,19 @@ Algunos de los conceptos clave importantes son:
 - Capa semántica
 - Métrica aditiva, semi-aditiva y no aditiva
 
+### Reglas importantes 
+
+1. Antes de usar una tabla es importante definir yentender qué representa una fila 
+2. No se deben hacer joins entre tablas sin antes entender si la relaciones son one-to-one, one-to-many, o many-to-may
+3. Es importante no suamr o calcular métricas de un jpin si no se está segura si hay duplicidad de información. 
+4. Una métrica es válida solo dentro de una **granularidad bien definidad** 
+5. Se pueden reconciliar métricas entre niveles para poder veficar que los número cuadren. 
 
 ## 3. Calidad de datos y validación
 
+## 4. Métricas de negocio
+
+## 5. Arquitectura analítica por capas
 
 
 
