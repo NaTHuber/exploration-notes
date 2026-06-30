@@ -7,7 +7,6 @@ El objetivo de estas notas es escribir y ordenar los conceptos y fundamentos bá
     A[1 <br> Pensamiento analítico sobre datos]
     B[2 <br> Modelado de datos]
     C[3 <br> Calidad de datos y validación]
-
     A --> B
     B --> C
 ```
@@ -25,6 +24,8 @@ group by order_id
 having count(*) > 1;
 ```
 > **Nota:** Una de las preguntas guía más importantes que se deben hacer es _¿Qué representa una fila en esta tabla?_
+
+Además, SQL debe empezar con una pregunta del negocio, ya que el objetivo es traducir preguntas del negocio a lógica de datos. 
 ## 2. Modelado de datos
 
 Es muy importante definir un modelo de datos en donde las tablas queden organizadas para que el modelo sea confiable, entendible y reutilizable. El enfoque dimensional nos brinda:
@@ -52,6 +53,12 @@ Algunos de los conceptos importantes son:
 3. Es importante no suamr o calcular métricas de un jpin si no se está segura si hay duplicidad de información. 
 4. Una métrica es válida solo dentro de una **granularidad bien definidad** 
 5. Se pueden reconciliar métricas entre niveles para poder veficar que los número cuadren. 
+
+### Tipos básicos de joins
+- `inner join`: conserva solo coincidencias en ambas tablas 
+- `left join`: conserva todo lo de la tabla izquierda y agrega lo que coincida de la derecha
+- `full outer join`: conserva todo de ambas tablas
+- `cross join`: combina todo con todo
 
 ## 3. Calidad de datos y validación
 
