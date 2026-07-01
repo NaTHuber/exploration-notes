@@ -50,9 +50,26 @@ Algunos de los conceptos importantes son:
 
 1. Antes de usar una tabla es importante definir yentender qué representa una fila 
 2. No se deben hacer joins entre tablas sin antes entender si la relaciones son one-to-one, one-to-many, o many-to-may
-3. Es importante no suamr o calcular métricas de un jpin si no se está segura si hay duplicidad de información. 
+3. Es importante no sumar o calcular métricas de un join si no se está segura si hay duplicidad de información. 
 4. Una métrica es válida solo dentro de una **granularidad bien definidad** 
 5. Se pueden reconciliar métricas entre niveles para poder veficar que los número cuadren. 
+
+### Tipos de comandos SQL
+```mermaid 
+  mindmap
+  root((SQL Command Types))
+    DDL 
+    DQL
+    DML
+    DCL
+    TCL
+
+```
+- DDL (Data Definition Language): `CREATE`, `DROP`, `ALTER`
+- DQL (Data Query Language): `SELECT`
+- DML (Data Manipulation Language): `INSERT`, `DELETE`, `UPDATE`
+- DCL (Data Control Language): `GRANT`, `REVOKE`
+- TCL (Transformation Control Language): `COMMIT`, `ROLLBACK`, `SAVEPOINT`
 
 ### Tipos básicos de joins
 - `inner join`: conserva solo coincidencias en ambas tablas 
